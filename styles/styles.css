@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+/* STUDENT LOGIN */
+.school-ms-heading {
+    color: rgb(49, 144, 182); 
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.login-heading::first-letter {
+    font-size: 1.3rem;
+}
+
+
+
+.student-login {
+    width: 25rem;
+    margin: auto;
+    margin-top: 15rem;
+    box-shadow: 1px 1px 10px grey;
+    
+}
+.login-section{
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+
+.login-id {
+    width:100% ;
+    outline: none;
+    height: 2rem;
+    text-indent: .5rem;
+    border-radius: .3rem;
+    background-color: rgb(212, 207, 207);
+}
+.fa-eye {
+    margin-left: -2rem;
+}
+.login-sectionBtn {
+    display: flex;
+    margin-top: 2rem;
+    
+    /* border: 1px solid grey; */
+}
+.register-btn {
+    text-align: left;
+    width: 50%;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    height: 3.5rem;
+    background-color: rgb(212, 207, 207);
+    
+}
+.login-btn {
+    text-align: right;
+    width: 50%;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    padding-right: 1rem;
+    /* padding: 1rem 1rem 1rem 1rem; */
+    background-color: #314153;
+    
+}
+
+.forgot-btn {
+    text-align: right;
+    font-size: .9rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* -----REGISTRATION PAGE */
+.squares {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.squares div p {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(212, 207, 207);
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: .8rem;
+    border-radius: .2rem;
+    position: relative;
+}
+
+.squares div p span {
+    position: absolute;
+    top: 0;
+    bottom: 2;
+}
+
+
+
+/* -------------EXTRA CURRICULAR ACTIVITIES */
+.extra-left-section {
+    width: fit-content;
+    color: white;
+    height: 100vh;
+}
+.extra-curricular {
+    overflow: hidden;
+    display:flex;
+}
+
+.studentDashboard{
+    background: #171f28;
+    padding-top: .5rem;
+    height: 100vh;
+
+}
+.left-section {
+    display: flex;
+}
+.left-section-header {
+    display: flex;
+    justify-content: space-between;
+    background: #12181e;
+    padding: 1.5rem;
+}
+
+.studentDashboard-header {
+    display: flex;
+    margin: 2rem 1rem 4rem 1rem;
+    background: #a1a1a1;
+    padding: 1rem 0rem 1rem 1rem;
+    border-radius: .4rem;
+    width: 15rem;
+}
+
+
+.dashboard-nav ul li {
+    list-style: none;
+    padding: .5rem;   
+    margin: 1.5rem .5rem 1rem 1rem; 
+}
+.dashboard-nav ul li:hover {
+    border-right: 3px solid white;
+}
+
+
+.dashboard-nav ul li a {
+    text-decoration: none;
+    color: rgb(212, 208, 208);
+    
+}
+
+.search-bar {
+    width: 20rem;
+    border: 1px solid grey;
+    position: relative;
+    text-indent: 2rem;
+    height: 2rem;
+    background-color: whitesmoke;
+    border-radius: .5rem;
+
+}
+
+.fa-search {
+    position: absolute;
+    z-index: 3;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.dashboard-section {
+    width: 100%;
+}
+
+.top-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.notification {
+    display: flex;
+    margin-right: 3rem;
+}
+.profile-photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+.dot {
+    width: .4rem;
+    height: .4rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    background-color: orangered;
+}
+.curricular {
+    margin-top: 1rem;
+    padding: 0rem 1rem 3rem 3rem;
+    background-color: whitesmoke;
+    padding-bottom: 5rem;
+    height: 93vh;
+}
+
+.extra-search input {
+    width: 15rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    background: whitesmoke;
+    border-radius: .3rem;
+    text-indent: .5rem;
+}
+
+.extra-search button {
+    width: 10rem;
+    text-align: center;
+    background: #168a9d;
+    padding: .5rem;
+    border-radius: .3rem;
+    color: white;
+}
+.extra-table {
+    margin-top: 1rem;
+}
+
+
+.extra-table table tr td {
+    border-bottom: 1px solid grey;
+    padding-right: 7rem;
+    padding-top: 1rem;
+}
+.extra-table table {
+    border-collapse: collapse;
+}
