@@ -208,10 +208,13 @@
     padding-bottom: 5rem;
     height: 93vh;
 }
+.extra-search{
+    margin-top: 1rem;
+}
 
 .extra-search input {
     width: 15rem;
-    padding: .5rem;
+    padding: .8rem;
     margin-right: 1rem;
     background: whitesmoke;
     border-radius: .3rem;
@@ -233,8 +236,9 @@
 
 .extra-table table tr td {
     border-bottom: 1px solid grey;
-    padding-right: 7rem;
-    padding-top: 1rem;
+    padding-right: 8rem;
+    padding-top: .3rem ;
+    padding-bottom: .3rem;
 }
 .extra-table table {
     border-collapse: collapse;
